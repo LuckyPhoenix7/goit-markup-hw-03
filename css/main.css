@@ -47,6 +47,7 @@ img {
 
 button {
   cursor: pointer;
+  border: none;
 }
 
 .container {
@@ -131,7 +132,7 @@ button {
 
   display: flex;
   align-items: center;
-  margin-right: 77px;
+  margin-right: 76px;
 }
 
 .header-logo-right {
@@ -185,12 +186,13 @@ button {
 .hero {
   background-color: var(--color-navy-blue);
   height: 603px;
+  padding: 188px 0;
 }
 
 .hero-title {
   color: var(--color-white);
 
-  width: 492px;
+  max-width: 496px;
 
   font-size: 56px;
   font-weight: 600;
@@ -198,7 +200,7 @@ button {
   text-align: center;
 
   margin: 0 auto;
-  padding: 192px 0 48px 0;
+  padding-bottom: 48px;
 }
 
 .hero-button {
@@ -213,8 +215,9 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
 
-  display: flex;
-  align-items: flex-start;
+  display: block;
+  min-width: 169px;
+  height: 56px;
   padding: 16px 32px;
   gap: 10px;
   margin: 0 auto;
