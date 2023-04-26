@@ -271,7 +271,6 @@ button {
 
 .team-items {
   width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .team-card {
@@ -280,6 +279,9 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-info {
@@ -290,6 +292,7 @@ button {
 
 .footer {
   background-color: var(--color-navy-blue);
+  padding: 100px 0;
 }
 
 .logo-footer-left {
@@ -302,8 +305,8 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  display: block;
-  padding: 100px 0 16px 0;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-footer-right {
@@ -316,7 +319,6 @@ button {
   width: 264px;
 
   text-align: justify;
-  padding-bottom: 100px;
 }
 
 /* Portfolio section */
