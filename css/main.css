@@ -348,18 +348,24 @@ button {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 11px 23px;
+  padding: 12px 24px;
 }
 
 .filter-button:hover,
 .filter-button:focus {
   color: var(--color-white);
   background-color: var(--color-ocean);
+
+  border: 1px solid transparent;
 }
 
 /* Portfolio */
 
 .portfolio {
+  padding: 96px 0 120px;
+}
+
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 42px 22px;
