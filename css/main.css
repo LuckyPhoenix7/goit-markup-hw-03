@@ -88,7 +88,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
 
-  margin-top: 120px;
+  margin-bottom: 8px;
 }
 
 .text {
@@ -98,8 +98,6 @@ button {
   max-width: 264px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
-  margin-top: 8px;
 }
 
 /* Header */
@@ -112,12 +110,13 @@ button {
 
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
 }
 
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 .header-logo-left {
@@ -186,7 +185,7 @@ button {
 .hero {
   background-color: var(--color-navy-blue);
   height: 603px;
-  padding: 188px 0;
+  padding-top: 188px;
 }
 
 .hero-title {
@@ -231,6 +230,10 @@ button {
 /* About section */
 
 .about {
+  padding: 120px 0;
+}
+
+.about-list {
   display: flex;
   gap: 24px;
 }
